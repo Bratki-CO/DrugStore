@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Z8WirKrznTVMQyd2og77vFMHa0tazfnTdAihwwWytao=",
+  "Source": "DrugStore.Api",
+  "BasePath": "_content/DrugStore.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
