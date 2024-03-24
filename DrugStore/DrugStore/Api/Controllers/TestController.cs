@@ -1,7 +1,6 @@
-﻿using DrugStore.Services;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
-namespace DrugStore.Controllers;
+namespace DrugStore.Api.Controllers;
 
 /// <summary>
 /// Пример того, как выглядит контроллер
@@ -9,13 +8,6 @@ namespace DrugStore.Controllers;
 [ApiController, Route("test-controller")]
 public class TestController
 {
-    private readonly TestService _testService;
-    
-    public TestController(TestService testService)
-    {
-        _testService = testService;
-    }
-
     /// <summary>
     /// Пример Post метода
     /// </summary>
@@ -31,7 +23,9 @@ public class TestController
     [HttpGet, Route("test-get")]
     public Task<int> TestGetMethod()
     {
-        return Task.FromResult(_testService.GetHui());
+        //return Task.FromResult(_testService.GetHui());
+
+        return Task.FromResult(1);
     }
     
     /// <summary>

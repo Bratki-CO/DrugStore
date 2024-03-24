@@ -1,4 +1,4 @@
-﻿using DrugStore.Infrastructure.Entities;
+﻿using DrugStore.Core.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
